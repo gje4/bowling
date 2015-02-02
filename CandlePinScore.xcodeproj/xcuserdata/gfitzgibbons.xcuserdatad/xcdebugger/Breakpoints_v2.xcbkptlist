@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CandlePinScore/ProfileViewController.swift"
+            timestampString = "443133430.174895"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "ProfileViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CandlePinScore.ProfileViewController.fbLoginView.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.FBLoginView&gt;"
+                  moduleName = "CandlePinScore"
+                  urlString = "file:///Users/gfitzgibbons/Desktop/CandlePinScore/CandlePinScore/ProfileViewController.swift"
+                  timestampString = "443133430.19752"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CandlePinScore.ProfileViewController.fbLoginView.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.FBLoginView&gt;"
+                  moduleName = "CandlePinScore"
+                  urlString = "file:///Users/gfitzgibbons/Desktop/CandlePinScore/CandlePinScore/ProfileViewController.swift"
+                  timestampString = "443133430.198643"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CandlePinScore.ProfileViewController.fbLoginView.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.FBLoginView&gt;"
+                  moduleName = "CandlePinScore"
+                  urlString = "file:///Users/gfitzgibbons/Desktop/CandlePinScore/CandlePinScore/ProfileViewController.swift"
+                  timestampString = "443133430.198767"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CandlePinScore.ProfileViewController.init (CandlePinScore.ProfileViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; CandlePinScore.ProfileViewController"
+                  moduleName = "CandlePinScore"
+                  urlString = "file:///Users/gfitzgibbons/Desktop/CandlePinScore/CandlePinScore/ProfileViewController.swift"
+                  timestampString = "443133430.198889"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CandlePinScore.ProfileViewController.init (CandlePinScore.ProfileViewController.Type)() -&gt; CandlePinScore.ProfileViewController"
+                  moduleName = "CandlePinScore"
+                  urlString = "file:///Users/gfitzgibbons/Desktop/CandlePinScore/CandlePinScore/ProfileViewController.swift"
+                  timestampString = "443133430.199003"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CandlePinScore.ProfileViewController.init (CandlePinScore.ProfileViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; CandlePinScore.ProfileViewController"
+                  moduleName = "CandlePinScore"
+                  urlString = "file:///Users/gfitzgibbons/Desktop/CandlePinScore/CandlePinScore/ProfileViewController.swift"
+                  timestampString = "443133430.199152"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CandlePinScore/ProfileViewController.swift"
+            timestampString = "443138025.419255"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ProfileViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CandlePinScore.ProfileViewController.__deallocating_deinit"
+                  moduleName = "CandlePinScore"
+                  urlString = "file:///Users/gfitzgibbons/Desktop/CandlePinScore/CandlePinScore/ProfileViewController.swift"
+                  timestampString = "443138025.423021"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc CandlePinScore.ProfileViewController.__ivar_destroyer"
+                  moduleName = "CandlePinScore"
+                  urlString = "file:///Users/gfitzgibbons/Desktop/CandlePinScore/CandlePinScore/ProfileViewController.swift"
+                  timestampString = "443138025.423195"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

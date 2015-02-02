@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		657153DB1A69B70500F98317 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657153DA1A69B70500F98317 /* Entity.swift */; };
 		65C7F2E21A641199000F518E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C7F2E11A641199000F518E /* AppDelegate.swift */; };
 		65C7F2E51A641199000F518E /* CandlePinScore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65C7F2E31A641199000F518E /* CandlePinScore.xcdatamodeld */; };
 		65C7F2E71A641199000F518E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C7F2E61A641199000F518E /* ViewController.swift */; };
@@ -14,6 +15,8 @@
 		65C7F2EC1A641199000F518E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C7F2EB1A641199000F518E /* Images.xcassets */; };
 		65C7F2EF1A641199000F518E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65C7F2ED1A641199000F518E /* LaunchScreen.xib */; };
 		65C7F2FB1A641199000F518E /* CandlePinScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C7F2FA1A641199000F518E /* CandlePinScoreTests.swift */; };
+		65C7F3051A64446A000F518E /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C7F3041A64446A000F518E /* FacebookSDK.framework */; };
+		65C7F3121A6460C0000F518E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C7F3111A6460C0000F518E /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		657153DA1A69B70500F98317 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		65C7F2DC1A641199000F518E /* CandlePinScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandlePinScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C7F2E01A641199000F518E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65C7F2E11A641199000F518E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +42,9 @@
 		65C7F2F41A641199000F518E /* CandlePinScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandlePinScoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C7F2F91A641199000F518E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65C7F2FA1A641199000F518E /* CandlePinScoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandlePinScoreTests.swift; sourceTree = "<group>"; };
+		65C7F3041A64446A000F518E /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		65C7F3061A644531000F518E /* Heady-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Heady-Bridging-Header.h"; sourceTree = "<group>"; };
+		65C7F3111A6460C0000F518E /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C7F3051A64446A000F518E /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,9 +90,11 @@
 				65C7F2E11A641199000F518E /* AppDelegate.swift */,
 				65C7F2E61A641199000F518E /* ViewController.swift */,
 				65C7F2E81A641199000F518E /* Main.storyboard */,
+				65C7F3111A6460C0000F518E /* ProfileViewController.swift */,
 				65C7F2EB1A641199000F518E /* Images.xcassets */,
 				65C7F2ED1A641199000F518E /* LaunchScreen.xib */,
 				65C7F2E31A641199000F518E /* CandlePinScore.xcdatamodeld */,
+				657153DA1A69B70500F98317 /* Entity.swift */,
 				65C7F2DF1A641199000F518E /* Supporting Files */,
 			);
 			path = CandlePinScore;
@@ -93,7 +103,9 @@
 		65C7F2DF1A641199000F518E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				65C7F3041A64446A000F518E /* FacebookSDK.framework */,
 				65C7F2E01A641199000F518E /* Info.plist */,
+				65C7F3061A644531000F518E /* Heady-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -216,7 +228,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				65C7F2E71A641199000F518E /* ViewController.swift in Sources */,
+				657153DB1A69B70500F98317 /* Entity.swift in Sources */,
 				65C7F2E21A641199000F518E /* AppDelegate.swift in Sources */,
+				65C7F3121A6460C0000F518E /* ProfileViewController.swift in Sources */,
 				65C7F2E51A641199000F518E /* CandlePinScore.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,9 +356,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CandlePinScore",
+				);
 				INFOPLIST_FILE = CandlePinScore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CandlePinScore/Heady-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -352,9 +371,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CandlePinScore",
+				);
 				INFOPLIST_FILE = CandlePinScore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CandlePinScore/Heady-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +435,7 @@
 				65C7F3001A641199000F518E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65C7F3011A641199000F518E /* Build configuration list for PBXNativeTarget "CandlePinScoreTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +444,7 @@
 				65C7F3031A641199000F518E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
